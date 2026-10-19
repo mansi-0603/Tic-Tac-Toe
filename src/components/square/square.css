@@ -1,0 +1,36 @@
+.singlecell {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  font-size: clamp(2.2rem, 12vw, 3.4rem);
+  font-weight: 700;
+  color: #e6e9f2;
+  background: #1b2234;
+  border: 2px solid #2a3350;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.singlecell:empty:hover {
+  background: #242e49;
+  border-color: #3b4670;
+}
+
+.singlecell:active {
+  transform: scale(0.96);
+}
+
+.singlecell.x {
+  color: #38bdf8;
+  cursor: default;
+}
+
+.singlecell.o {
+  color: #fb7185;
+  cursor: default;
+}
+
+.singlecell.winning {
+  background: rgba(52, 211, 153, 0.16);
+  border-color: #34d399;
+}

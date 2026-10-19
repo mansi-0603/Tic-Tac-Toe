@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #121826;
+  color: #e6e9f2;
+}
+
+button:focus-visible {
+  outline: 3px solid #818cf8;
+  outline-offset: 3px;
+}

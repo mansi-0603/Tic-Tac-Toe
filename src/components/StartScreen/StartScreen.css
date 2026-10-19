@@ -1,0 +1,58 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 2.5rem;
+  background: #1b2234;
+  border: 2px solid #2a3350;
+  border-radius: 20px;
+}
+
+.start-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.start-hint {
+  color: #8d96b0;
+  font-size: 0.95rem;
+}
+
+.start-options {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.pick {
+  width: 6rem;
+  height: 6rem;
+  font-size: 3rem;
+  font-weight: 700;
+  background: #121826;
+  border: 2px solid #2a3350;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.12s, border-color 0.15s, background 0.15s;
+}
+
+.pick.x {
+  color: #38bdf8;
+}
+
+.pick.o {
+  color: #fb7185;
+}
+
+.pick.x:hover {
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  transform: translateY(-3px);
+}
+
+.pick.o:hover {
+  border-color: #fb7185;
+  background: rgba(251, 113, 133, 0.1);
+  transform: translateY(-3px);
+}
